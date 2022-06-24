@@ -3,5 +3,11 @@ module.exports = {
     require("cssnano")({
       preset: "default",
     }),
+    {
+      "postcss-import": {},
+      "tailwindcss/nesting": "postcss-nesting",
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   ],
 };
