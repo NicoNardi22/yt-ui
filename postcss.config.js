@@ -1,13 +1,15 @@
-module.exports = {
+const tailwindcss = require("tailwindcss");
+const autoprefixer = require("autoprefixer");
+const cssnano = require("cssnano");
+
+const config = {
   plugins: [
-    require("cssnano")({
+    tailwindcss(),
+    autoprefixer(),
+    cssnano({
       preset: "default",
     }),
-    {
-      "postcss-import": {},
-      "tailwindcss/nesting": "postcss-nesting",
-      tailwindcss: {},
-      autoprefixer: {},
-    },
   ],
 };
+
+module.exports = config;
