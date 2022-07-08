@@ -5,7 +5,7 @@ It is intended to recreate the youtube UI with no API connections yet.
 Let's have fun!
 
 > Reminder: when cloning the repo, always run the `npm install` command.
-> To start the app: `npm run start`
+> To start the app: `npm start`
 
 ## Workflow
 I inspected the YT page and separated the relevant sections into Trello tickets.
