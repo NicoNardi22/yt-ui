@@ -1,6 +1,7 @@
 import { LogoDark, LogoLight } from "./icons/logo";
 import { useEffect, useState } from "react";
 
+import AccessButton from "./accessButton";
 import PropTypes from "prop-types";
 import React from "react";
 
@@ -43,7 +44,7 @@ const Header = () => {
     <div className="container">
       <div className="h-14 flex flex-row items-center justify-between">
         {logo}
-        <p>Hola soy el Header</p>
+        <AccessButton mode={mode} />
       </div>
     </div>
   );

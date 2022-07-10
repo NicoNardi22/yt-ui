@@ -11,6 +11,7 @@ const config = {
       white: colors.white,
       slate: colors.slate,
       neutral: colors.neutral,
+      sky: colors.sky,
     },
     container: {
       padding: {
